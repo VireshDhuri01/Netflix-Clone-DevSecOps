@@ -1,30 +1,9 @@
 #!/bin/bash
 
-set -e
+wget https://get.helm.sh/helm-v3.21.3-linux-amd64.tar.gz
 
-echo "Updating packages..."
-sudo apt update
+tar -zxvf helm-v3.21.3-linux-amd64.tar.gz
 
-echo "Installing prerequisites..."
-sudo apt install -y curl gpg apt-transport-https
+sudo mv linux-amd64/helm /usr/local/bin/helm
 
-echo "Creating keyring directory..."
-sudo mkdir -p /etc/apt/keyrings
-
-echo "Adding Helm GPG key..."
-curl -fsSL https://baltocdn.com/helm/signing.asc | \
-gpg --dearmor | \
-sudo tee /etc/apt/keyrings/helm.gpg > /dev/null
-
-echo "Adding Helm repository..."
-echo "deb [signed-by=/etc/apt/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | \
-sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
-
-echo "Updating package lists..."
-sudo apt update
-
-echo "Installing Helm..."
-sudo apt install -y helm
-
-echo "Helm installed successfully!"
 helm version
