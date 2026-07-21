@@ -162,7 +162,7 @@ Store token inside Jenkins Credentials.
 Run SonarQube
 
 ```bash
-
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ---
