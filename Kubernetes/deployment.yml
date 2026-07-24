@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: vireshdhuri/netflix:latest
+        image: 706162601257.dkr.ecr.us-east-1.amazonaws.com/netflix:27
         ports:
         - containerPort: 80
