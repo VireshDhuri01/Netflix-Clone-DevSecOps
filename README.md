@@ -93,7 +93,7 @@ Prometheus → Grafana
 
 ---
 
-# 🚀 Phase 2 - SonarQube & Docker
+### 🚀 Phase 2 - SonarQube & Docker
 
 Run SonarQube
 
@@ -103,32 +103,17 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
 Create a TMDB account and generate an API key.
 
-Build Docker Image
-
-```bash
-docker build --build-arg TMDB_V3_API_KEY=<API_KEY> -t netflix .
-```
-
-Run the Application
-
-```bash
-docker run -d --name netflix -p 8081:80 netflix
-```
-
----
-
-# 🚀 Phase 3 - Jenkins Pipeline
+### 🚀 Phase 3 - Jenkins Pipeline
 
 Pipeline Stages
 
 - Git Clone
 - Install Dependencies
 - SonarQube Scan
-- Quality Gate
 - Trivy File Scan
 - Docker Build
 - Trivy Image Scan
-- Docker Hub Login
+- AWWS ECR Login
 - Push Image
 - Update Kubernetes Manifest
 - Push Manifest to GitHub
@@ -136,7 +121,7 @@ Pipeline Stages
 
 ---
 
-# 🚀 Phase 4 - Monitoring
+### 🚀 Phase 4 - Monitoring
 
 Install
 
@@ -154,7 +139,7 @@ Monitor
 
 ---
 
-# 🚀 Phase 5 - Amazon EKS
+### 🚀 Phase 5 - Amazon EKS
 
 - Create Cluster
 - Create Node Group
@@ -164,7 +149,7 @@ Monitor
 
 ---
 
-# 🚀 Phase 6 - Argo CD
+### 🚀 Phase 6 - Argo CD (Check installation folder Readme)
 
 - Install Argo CD
 - Expose Argo CD Server
@@ -175,88 +160,17 @@ Monitor
 
 ---
 
-# 📊 Monitoring Stack
-
-- Prometheus
-- Grafana
-- Node Exporter
-
-Monitor
-
-- Kubernetes Cluster
-- EC2 Metrics
-- Application Pods
-- Resource Utilization
-
----
-
 # 📸 Project Screenshots
 
-## Architecture
+### Jenkins Pipeline
 
 > Add image
 
 ---
 
-## Jenkins Pipeline
+### Argo CD
 
 > Add image
-
----
-
-## SonarQube Dashboard
-
-> Add image
-
----
-
-## Trivy Scan
-
-> Add image
-
----
-
-## Docker Hub Repository
-
-> Add image
-
----
-
-## Argo CD
-
-> Add image
-
----
-
-## Kubernetes Pods
-
-```bash
-kubectl get pods
-```
-
-> Add screenshot
-
----
-
-## Kubernetes Nodes
-
-```bash
-kubectl get nodes
-```
-
-> Add screenshot
-
----
-
-## Prometheus
-
-> Add screenshot
-
----
-
-## Grafana Dashboard
-
-> Add screenshot
 
 ---
 
@@ -265,54 +179,6 @@ kubectl get nodes
 > Add screenshot
 
 ---
-
-# 📈 CI/CD Pipeline Summary
-
-```
-Developer
-    │
-    ▼
-GitHub
-    │
-    ▼
-Jenkins
-    │
-    ├── SonarQube Scan
-    ├── Trivy Scan
-    ├── Docker Build
-    ├── Push Docker Image
-    ├── Update Manifest
-    ├── Push Manifest
-    └── Email Notification
-            │
-            ▼
-         Argo CD
-            │
-            ▼
-      Amazon EKS
-            │
-            ▼
-      Netflix Clone
-```
-
----
-
-# 📚 What I Learned
-
-- CI/CD Pipeline Design
-- Docker Image Management
-- Amazon EKS Deployment
-- Kubernetes Workloads
-- Helm Package Management
-- GitOps using Argo CD
-- DevSecOps using SonarQube & Trivy
-- Infrastructure Monitoring
-- Jenkins Pipeline Automation
-- SMTP Email Integration
-
----
-
-# 👨‍💻 Author
 
 **Viresh Dhuri**
 
