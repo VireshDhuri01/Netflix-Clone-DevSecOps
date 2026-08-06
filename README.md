@@ -166,19 +166,13 @@ Monitor
 
 > Add image
 
----
-
 ### Argo CD
 
 > Add image
 
----
-
 ## Netflix Clone
 
 > Add screenshot
-
----
 
 **Viresh Dhuri**
 
