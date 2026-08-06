@@ -59,7 +59,7 @@ Prometheus → Grafana
 
 ### ⚙️ Prerequisites
 
-****Install all the important setups as provider in installations folder.****
+**Install all the important setups as provider in installations folder.**
 ---
 
 ### 🚀 Phase 1 - Jenkins Setup
