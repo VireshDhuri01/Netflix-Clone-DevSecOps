@@ -57,20 +57,7 @@ Prometheus → Grafana
 
 **GitHub, Jenkins, SonarQube, Trivy, Docker, AWS ECR, EC2, EKS, Helm, Argo CD, Prometheus and Grafana**
 
-# ⚙️ Prerequisites
-
-- AWS Account
-- Ubuntu EC2 Instance
-- Docker
-- Jenkins
-- AWS CLI
-- kubectl
-- Helm
-- SonarQube
-- Trivy
-- Docker Hub Account
-- TMDB API Key
-- GitHub Account
+#### ⚙️ Prerequisites
 
 ---
 
