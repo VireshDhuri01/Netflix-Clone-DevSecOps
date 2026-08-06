@@ -4,7 +4,7 @@ A cloud-native **Netflix Clone** deployed on **Amazon EKS** using a complete **D
 
 ---
 
-## 📌 Project Architecture
+### 📌 Project Architecture
 
 > **Add your architecture image here**
 
@@ -14,7 +14,7 @@ A cloud-native **Netflix Clone** deployed on **Amazon EKS** using a complete **D
 
 ---
 
-## 🚀 Project Workflow
+### 🚀 Project Workflow
 
 ```text
 GitHub
@@ -53,24 +53,9 @@ Prometheus → Grafana
 
 ---
 
-# 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
-| Category | Tools |
-|----------|-------|
-| Version Control | GitHub |
-| CI/CD | Jenkins |
-| Code Quality | SonarQube |
-| Security | Trivy |
-| Containerization | Docker, AWS ECR |
-| Cloud | AWS EC2, Amazon EKS |
-| Orchestration | Kubernetes |
-| Package Manager | Helm |
-| GitOps | Argo CD |
-| Monitoring | Prometheus, Grafana |
-| Notifications | SMTP Email |
-| API | TMDB API |
-
----
+**GitHub, Jenkins, SonarQube, Trivy, Docker, AWS ECR, EC2, EKS, Helm, Argo CD, Prometheus and Grafana**
 
 # ⚙️ Prerequisites
 
