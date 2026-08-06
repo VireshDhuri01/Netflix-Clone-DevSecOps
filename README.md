@@ -6,8 +6,6 @@ A cloud-native **Netflix Clone** deployed on **Amazon EKS** using a complete **D
 
 ### 📌 Project Architecture
 
-> **Add your architecture image here**
-
 <p align="center">
   <img src="./project-images/project-architecture.png" width="600" title="Architecture" alt="Architecture">
   </p>
