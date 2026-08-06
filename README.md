@@ -61,24 +61,27 @@ Prometheus → Grafana
 
 **Install all the important setups as provider in installations folder.**
 
-# 🚀 Phase 1 - Jenkins Setup
+### 🚀 Phase 1 - Jenkins Setup
 
-- Install Jenkins
-- Install required plugins
-- Configure Jenkins Tools
-- Configure Credentials
-- Configure SonarQube
-- Configure Docker
-- Configure SMTP Email
+*Required Plugins*
+→ Eclipse Termium Installer
+→ Sonarcube scanner
+→ Nodejs 
+→ Docker plugins
+→ Pipeline Stage view
+→ Prometheus
 
-### Required Credentials
+*Required Credentials*
+→ GitHub Token
+→ SonarQube Token
+→ AWS Access Key
+→ AWS Secret Key
+→ SMTP App Password
 
-- GitHub Token
-- Docker Hub Credentials
-- SonarQube Token
-- AWS Access Key
-- AWS Secret Key
-- SMTP App Password
+*System*
+→ Sonarqube installer (url, token)
+→ Prometheus
+→ SMTP Email Setup
 
 ---
 
