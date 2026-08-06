@@ -55,11 +55,11 @@ Prometheus → Grafana
 
 ### 🛠️ Tech Stack
 
-**GitHub, Jenkins, SonarQube, Trivy, Docker, AWS ECR, EC2, EKS, Helm, Argo CD, Prometheus and Grafana**
+***GitHub, Jenkins, SonarQube, Trivy, Docker, AWS ECR, EC2, EKS, Helm, Argo CD, Prometheus and Grafana***
 
 ### ⚙️ Prerequisites
 
-**Install all the important setups as provider in installations folder.**
+***Install all the important setups as provider in installations folder.***
 ---
 
 ### 🚀 Phase 1 - Jenkins Setup
@@ -84,6 +84,11 @@ Prometheus → Grafana
 - Prometheus
 - SMTP Email Setup
 
+*Tools*
+- JDK (21.0.8)
+- Nodejs (16.2.0)
+- Sonarscanner (Create token first)
+- Docker (from docker.com)
 
 ---
 
